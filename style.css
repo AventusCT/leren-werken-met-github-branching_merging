@@ -6,6 +6,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 h1 {
@@ -27,6 +29,20 @@ table, th, td {
 th, td {
     padding: 10px;
     text-align: left;
+}
+
+#links {
+    background-color: gainsboro;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-self: center;
+}
+
+a {
+    padding: 2px;
 }
 
 /* Student B zal hier extra stijlen toevoegen voor de ongeordende lijst */
